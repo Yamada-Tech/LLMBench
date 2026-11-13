@@ -1,0 +1,289 @@
+{
+  "version": 1,
+  "tasks": [
+    {
+      "id": "math-001",
+      "category": "math",
+      "difficulty": "easy",
+      "language": "ja",
+      "prompt": "37 × 89 の計算結果を求めなさい。",
+      "scorer": { "type": "numeric", "value": 3293 }
+    },
+    {
+      "id": "math-002",
+      "category": "math",
+      "difficulty": "easy",
+      "language": "ja",
+      "prompt": "144 の正の平方根を求めなさい。",
+      "scorer": { "type": "numeric", "value": 12 }
+    },
+    {
+      "id": "math-003",
+      "category": "math",
+      "difficulty": "medium",
+      "language": "ja",
+      "prompt": "1/4 + 3/8 を小数で表しなさい。",
+      "scorer": { "type": "numeric", "value": 0.625, "tolerance": 0.001 }
+    },
+    {
+      "id": "math-004",
+      "category": "math",
+      "difficulty": "medium",
+      "language": "ja",
+      "prompt": "2の10乗 (2^10) の値を求めなさい。",
+      "scorer": { "type": "numeric", "value": 1024 }
+    },
+    {
+      "id": "math-005",
+      "category": "math",
+      "difficulty": "medium",
+      "language": "ja",
+      "prompt": "方程式 3x + 7 = 25 における x の値を求めなさい。",
+      "scorer": { "type": "numeric", "value": 6 }
+    },
+    {
+      "id": "math-006",
+      "category": "math",
+      "difficulty": "hard",
+      "language": "ja",
+      "prompt": "100個の異なる品物から2個を選ぶ組合せの数 100C2 を求めなさい。",
+      "scorer": { "type": "numeric", "value": 4950 }
+    },
+    {
+      "id": "arith-001",
+      "category": "arithmetic",
+      "difficulty": "easy",
+      "language": "ja",
+      "prompt": "1234 + 5678 を計算しなさい。",
+      "scorer": { "type": "numeric", "value": 6912 }
+    },
+    {
+      "id": "arith-002",
+      "category": "arithmetic",
+      "difficulty": "easy",
+      "language": "ja",
+      "prompt": "9876 − 4321 を計算しなさい。",
+      "scorer": { "type": "numeric", "value": 5555 }
+    },
+    {
+      "id": "arith-003",
+      "category": "arithmetic",
+      "difficulty": "medium",
+      "language": "ja",
+      "prompt": "240 の 15% の値を求めなさい。",
+      "scorer": { "type": "numeric", "value": 36 }
+    },
+    {
+      "id": "arith-004",
+      "category": "arithmetic",
+      "difficulty": "medium",
+      "language": "ja",
+      "prompt": "7 factorial (7!) の値を求めなさい。",
+      "scorer": { "type": "numeric", "value": 5040 }
+    },
+    {
+      "id": "logic-001",
+      "category": "logic",
+      "difficulty": "easy",
+      "language": "ja",
+      "prompt": "「すべての猫は哺乳類である」「すべての哺乳類は酸素を必要とする」が真のとき、必然的に導ける結論はどれか。\nA. 猫は酸素を必要とする\nB. 猫は空を飛べる\nC. 酸素は必要ない\nD. 哺乳類はすべて猫である",
+      "scorer": { "type": "choice", "value": "A" }
+    },
+    {
+      "id": "logic-002",
+      "category": "logic",
+      "difficulty": "medium",
+      "language": "ja",
+      "prompt": "AはBより背が高い。BはCより背が高い。このとき3人で最も背が低いのは誰か。\nA. A\nB. B\nC. C",
+      "scorer": { "type": "choice", "value": "C" }
+    },
+    {
+      "id": "logic-003",
+      "category": "logic",
+      "difficulty": "medium",
+      "language": "ja",
+      "prompt": "「すべてのAはBである」の論理的な否定（対偶ではなく否定）として正しいのはどれか。\nA. すべてのAはBではない\nB. どのBもAではない\nC. AでありBでないものが少なくとも1つ存在する\nD. すべてのBはAである",
+      "scorer": { "type": "choice", "value": "C" }
+    },
+    {
+      "id": "logic-004",
+      "category": "logic",
+      "difficulty": "medium",
+      "language": "ja",
+      "prompt": "数列 2, 3, 5, 8, 12, 17 の次の項を求めなさい。",
+      "scorer": { "type": "numeric", "value": 23 }
+    },
+    {
+      "id": "logic-005",
+      "category": "logic",
+      "difficulty": "hard",
+      "language": "ja",
+      "prompt": "ある村の嘘つきに関する次の話を読む。「甲: 乙は嘘つきだ。乙: 甲と丙は同じタイプだ。丙: 乙は正直者だ。」正直者は常に真実を語り、嘘つきは常に嘘をつく。3人のうち正直者は1人だけだとすると、正直者は誰か。\nA. 甲\nB. 乙\nC. 丙",
+      "scorer": { "type": "choice", "value": "A" }
+    },
+    {
+      "id": "know-001",
+      "category": "knowledge",
+      "difficulty": "easy",
+      "language": "ja",
+      "prompt": "水の化学式を記号で答えなさい。",
+      "scorer": { "type": "exact", "values": ["H2O", "H₂O"] }
+    },
+    {
+      "id": "know-002",
+      "category": "knowledge",
+      "difficulty": "easy",
+      "language": "ja",
+      "prompt": "フランスの首都はどれか。\nA. ロンドン\nB. パリ\nC. ベルリン\nD. マドリード",
+      "scorer": { "type": "choice", "value": "B" }
+    },
+    {
+      "id": "know-003",
+      "category": "knowledge",
+      "difficulty": "medium",
+      "language": "ja",
+      "prompt": "第二次世界大戦が終結した西暦年を4桁の数字で答えなさい。",
+      "scorer": { "type": "numeric", "value": 1945 }
+    },
+    {
+      "id": "know-004",
+      "category": "knowledge",
+      "difficulty": "medium",
+      "language": "ja",
+      "prompt": "CPython（Python公式インタープリタ）は主にどのプログラミング言語で実装されているか。",
+      "scorer": { "type": "exact", "values": ["C", "C言語"] }
+    },
+    {
+      "id": "know-005",
+      "category": "knowledge",
+      "difficulty": "medium",
+      "language": "en",
+      "prompt": "HTTP status code for 'Not Found' (as a number).",
+      "scorer": { "type": "numeric", "value": 404 }
+    },
+    {
+      "id": "know-006",
+      "category": "knowledge",
+      "difficulty": "hard",
+      "language": "ja",
+      "prompt": "ヒトの身体で最も質量割合が大きい元素の原子番号を数字で答えなさい。",
+      "scorer": { "type": "numeric", "value": 8 }
+    },
+    {
+      "id": "ext-001",
+      "category": "extraction",
+      "difficulty": "medium",
+      "language": "ja",
+      "prompt": "次の文章から氏名・年齢・都市をJSONオブジェクト (keys: name, age, city) として抽出しなさい。説明文は不要でJSONのみを出力すること。\n「山田太郎（やまだたろう）、34歳。在住は大阪。」",
+      "scorer": { "type": "json", "expected": { "name": "山田太郎", "age": 34, "city": "大阪" } }
+    },
+    {
+      "id": "ext-002",
+      "category": "extraction",
+      "difficulty": "medium",
+      "language": "en",
+      "prompt": "Extract the product name, price (number), and currency as a JSON object with keys name, price, currency. Output JSON only.\n\"We purchased the TurboVac X200 for 299.99 USD last week.\"",
+      "scorer": { "type": "json", "expected": { "name": "TurboVac X200", "price": 299.99, "currency": "USD" } }
+    },
+    {
+      "id": "ext-003",
+      "category": "extraction",
+      "difficulty": "hard",
+      "language": "ja",
+      "prompt": "次のログからエラー発生回数(errors)と平均応答時間(average_ms)をJSON (keys: errors, average_ms) で抽出しなさい。JSONのみを出力すること。\n[2026-01-01 10:00] req=1 status=200 ms=120\n[2026-01-01 10:01] req=2 status=500 ms=80\n[2026-01-01 10:02] req=3 status=500 ms=100",
+      "scorer": { "type": "json", "expected": { "errors": 2, "average_ms": 100 } }
+    },
+    {
+      "id": "code-001",
+      "category": "code",
+      "difficulty": "easy",
+      "language": "ja",
+      "prompt": "Pythonで関数 fizzbuzz(n) を実装しなさい。1からnまでの整数に対して、3の倍数は \"Fizz\"、5の倍数は \"Buzz\"、両方の倍数は \"FizzBuzz\"、それ以外は数字の文字列を要素とするリストを返すこと。コードのみをコードブロックで出力すること。",
+      "scorer": {
+        "type": "code",
+        "language": "python",
+        "tests": [
+          { "call": "fizzbuzz(5)", "expected": ["1", "2", "Fizz", "4", "Buzz"] },
+          { "call": "fizzbuzz(3)", "expected": ["1", "2", "Fizz"] }
+        ]
+      }
+    },
+    {
+      "id": "code-002",
+      "category": "code",
+      "difficulty": "easy",
+      "language": "ja",
+      "prompt": "Pythonで関数 is_palindrome(s) を実装しなさい。文字列 s が回文なら True、そうでなければ False を返すこと。コードのみをコードブロックで出力すること。",
+      "scorer": {
+        "type": "code",
+        "language": "python",
+        "tests": [
+          { "call": "is_palindrome('level')", "expected": true },
+          { "call": "is_palindrome('hello')", "expected": false }
+        ]
+      }
+    },
+    {
+      "id": "code-003",
+      "category": "code",
+      "difficulty": "medium",
+      "language": "ja",
+      "prompt": "Pythonで関数 fib(n) を実装しなさい。fib(0)=0, fib(1)=1 とし、n番目のフィボナッチ数を整数で返すこと。コードのみをコードブロックで出力すること。",
+      "scorer": {
+        "type": "code",
+        "language": "python",
+        "tests": [
+          { "call": "fib(10)", "expected": 55 },
+          { "call": "fib(0)", "expected": 0 }
+        ]
+      }
+    },
+    {
+      "id": "code-004",
+      "category": "code",
+      "difficulty": "medium",
+      "language": "ja",
+      "prompt": "Pythonで関数 sort_unique(nums) を実装しなさい。整数のリストを受け取り、重複を除いて昇順に並べ替えた新しいリストを返すこと。コードのみをコードブロックで出力すること。",
+      "scorer": {
+        "type": "code",
+        "language": "python",
+        "tests": [
+          { "call": "sort_unique([3, 1, 2, 3, 1])", "expected": [1, 2, 3] },
+          { "call": "sort_unique([])", "expected": [] }
+        ]
+      }
+    },
+    {
+      "id": "reason-001",
+      "category": "reasoning",
+      "difficulty": "medium",
+      "language": "ja",
+      "prompt": "5台の機械が5分で5個の部品を作る。同じ割合で働く100台の機械が100個の部品を作るのにかかる時間は何分か。数値で答えなさい。",
+      "scorer": { "type": "numeric", "value": 5 }
+    },
+    {
+      "id": "reason-002",
+      "category": "reasoning",
+      "difficulty": "medium",
+      "language": "ja",
+      "prompt": "バットとボールの合計価格は110円です。バットはボールより100円高価です。ボールの価格は何円か。数値で答えなさい。",
+      "scorer": { "type": "numeric", "value": 5 }
+    },
+    {
+      "id": "reason-003",
+      "category": "reasoning",
+      "difficulty": "easy",
+      "language": "ja",
+      "prompt": "マラソンレースで2位の人を抜いたら、あなたの順位は何位か。\nA. 1位\nB. 2位\nC. 3位",
+      "scorer": { "type": "choice", "value": "B" }
+    },
+    {
+      "id": "reason-004",
+      "category": "reasoning",
+      "difficulty": "hard",
+      "language": "ja",
+      "prompt": "父と息子の年齢の合計は50歳で、父の年齢は息子の年齢の3倍である。息子は何歳か。数値で答えなさい。",
+      "scorer": { "type": "numeric", "value": 12.5, "tolerance": 0.001 }
+    }
+  ]
+}
